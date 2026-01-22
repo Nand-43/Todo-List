@@ -3,7 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    gap: 20px;
 }
 .input{
     background-color:rgb(182, 196, 221) ;
@@ -14,13 +14,12 @@
     border-radius: 10px;   
 }
 .add{
-    margin: 20px;
     background-color: crimson;
     padding: 30px;
-    width: 10px;
     border-radius: 10px;
     border: 1px solid white;
-    text-align: right;
+    text-align: left;
+    
 }
 .done{
     border-radius: 10px;

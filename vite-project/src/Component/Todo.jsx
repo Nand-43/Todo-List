@@ -34,11 +34,10 @@ export default function App()
             <input placeholder="Enter the Task" className={styles.input}
             onChange={(e) => setTodo(e.target.value)}
             
-            value={todo} type="text" 
-                    />
-                                <button type="submit" className={styles.add}>Add</button>
-
+            value={todo} type="text"/>
             
+            <button type="submit" className={styles.add}>Add</button>
+
         </form>
         
    
