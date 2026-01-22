@@ -1,0 +1,33 @@
+.form{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.input{
+    background-color:rgb(182, 196, 221) ;
+    font-weight: bold;
+    width: 40%;
+    padding: 30px;
+    border: 1px solid white;
+    border-radius: 10px;   
+}
+.add{
+    margin: 20px;
+    background-color: crimson;
+    padding: 30px;
+    width: 10px;
+    border-radius: 10px;
+    border: 1px solid white;
+    text-align: right;
+}
+.done{
+    border-radius: 10px;
+}
+.delete{
+    border-radius: 10px;
+    margin-left: 2px;
+    background-color: black;
+    color: white;
+}
